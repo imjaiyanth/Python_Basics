@@ -1,0 +1,415 @@
+body{
+    font-family: arial;
+}
+.search-bar-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 62px;
+    padding-top: 2px;
+    width: auto;
+    background-color: rgb(26,26,26);
+}
+
+.amazon-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 60px;
+    width: 110px;
+
+    img{
+        height: 30px;
+        width: 75px;
+        margin-top: 9px;
+    }
+}
+
+.delivery-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+    width: 200px;
+    color: white;
+    
+}
+.delivery-location .location-img img{
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+.delivery-location .pincode{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.delivery-location .update{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.search-box{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .deals{
+        width: 60px;
+        height: 40px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        margin-left: 10px;
+    }
+    .box{
+        height: 38px;
+        width: 520px;
+        border-radius: 0px;
+        border: none;
+        margin-left: 0px;
+        padding-left: 10px;
+        font-size: 15px;        
+    }
+    .search-icon{
+        height: 40px;
+        width: 50px;
+        margin-left: 0px;
+        background-color: rgb(237, 190, 137);
+        border: none;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        margin-right: 10px;
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.region{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    justify-content: center;
+    color: white;
+    .flag{
+        width: 20px;
+        height: 15px;
+    }
+    .country{
+        font-weight: bold;
+    }
+}
+
+
+.account-login{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    color: white;
+
+    .signin{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .account{
+        padding-left: 20px;
+        font-weight: bold;
+    }
+}
+
+.return-order{
+    width: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10px;
+    .returns{
+        font-size: 12px;
+    }
+    .orders{
+        font-weight: bold;
+    }
+}
+
+.basket-img{
+    display: flex;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+.basket-img img{
+    width: 75px;
+    height: 40px;
+}
+
+
+.menu-bar-row{
+    background-color:#232f3e ;
+    height: 40px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+}
+.option-img img{
+    margin-top: 4px;
+    height: 40px;
+    width: 400px;
+}
+.hamburger-menu img{
+    height: 20px;
+    width: 30px;
+}
+.hamburger-menu,.tv,.sell,.best-sell,.deal-today,.mobiles,.electronics{
+    background-color:#232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.amazon-logo:hover,.return-order:hover,
+.delivery-location:hover,.region:hover,
+.account-login:hover,.return-order:hover,
+.basket-img:hover,.hamburger-menu:hover,
+.tv:hover,.sell:hover,.best-sell:hover,
+.deal-today:hover,.mobiles:hover,
+.electronics:hover,.option-img:hover{
+    border: solid white;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.deals-and-offer-row{
+    display: flex;
+    border-bottom: solid lightgray 1px;
+    font-size: 14px;
+}
+
+.today-deal,.all-deal,
+.watched-deal,.sub-save,
+.coupons,.clearance,.open-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.today-deal:hover,.all-deal:hover,
+.watched-deal:hover,.sub-save:hover,
+.coupons:hover,.clearance:hover,.open-box:hover{
+    color:orangered;
+    cursor: pointer;
+    border-bottom:solid orangered 2px ;
+    transition: 0s;
+}
+.today-deal:hover,.all-deal:hover,
+.watched-deal:hover,.sub-save:hover,
+.coupons:hover,.clearance:hover,.open-box:hover{
+    border-bottom:solid orangered 2px ;
+    transition: 0.2s;
+}
+
+.bank-offer{
+    background-color: white;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 1260px;
+}
+
+.bank-offer img{
+    height: 60px;
+    width: 1260px;
+    vertical-align: top;
+}
+
+.top-deals{
+    display: flex;
+    height: 155px;
+    padding-left:14px;
+    padding-bottom: 14px;
+    padding-top: 18px;
+    padding-right: 18px;
+    width: auto;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 155px;
+}
+.arrow button{
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 1px 1px lightgray;
+    font-weight:bolder;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    font-size:15px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.deal{
+    height: 155px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.deal-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 85px;
+}
+.deal-img img{
+    height: 85px;
+    border-radius: 50%;
+    width: 85px;
+}
+.deal-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    width: auto;
+    height:auto ;
+}
+
+.content{
+    display: flex;
+}
+.filter{
+    width: 221px;
+    height: 1000px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border:none;
+    box-shadow: 0.7px -0.7px 1px lightgrey;
+}
+.product-list{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:1000px;
+}
+.product-list{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr 1fr;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width:300px;
+    height: 325px;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-color: rgb(212, 211, 211);
+}
+
+.price,.discount,.review{
+    font-weight: bold;
+    width: auto;
+    height: 24px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.price-amount,.discount-off{
+    height: 20px;
+    width:fit-content;
+    font-size: 14px;
+    cursor: pointer;
+    color:rgb(0, 113, 133);
+}
+.price-amount:hover,.discount-off:hover{
+    color: rgb(245, 68, 3);
+    text-decoration: underline;
+}
+
+.all-selling-product-list{
+    display: flex;
+    flex-direction: column;
+}
+.product-img{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 304px;
+    height: 226px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.product-img img{
+    margin-left: 25.5px;
+    margin-right: 25.5px;
+    width: 175px;
+    height: 226px;
+}
+.product-details{
+    padding: 8px;
+    padding-top: 0px;
+    width: 300px;
+    padding-left: 16px;
+}
+.sale-name{
+    display: flex;
+    border-bottom: 4px;
+    height: 24px;
+}
+.deal-of-the-day{
+    background-color: rgb(204, 12, 57);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 2px;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.republic-day{
+    display: flex;
+    align-items: center;
+    font-weight:600;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(204, 12, 57);
+}
+.product-discruption{
+    line-height: 20px;
+    width: 304px;
+    font-size: 14px;
+    font-weight: 500;
+}
